@@ -1,3 +1,6 @@
+#include <iostream>
+#include <vector>
+
 struct Course {
   size_t id;
   std::string name;

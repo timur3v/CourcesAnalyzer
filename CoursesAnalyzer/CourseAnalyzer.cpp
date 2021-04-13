@@ -32,6 +32,7 @@ void GetBestCourseSet(ToClose& to_close, std::unordered_map<size_t, Course>& cou
   }
 
   size_t min_subjects = -1;
+
   for (size_t i = 0; i < trees_5.size(); ++i) { // todo: simplify
     for (size_t j = 0; j < trees_3[0].size(); ++j) {
       for (size_t k = 0; k < trees_3[1].size(); ++k) {

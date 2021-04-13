@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Course/Course.h
+
+../CoursesAnalyzer/CourseAnalyzer.cpp
+iostream
+-
+vector
+-
+unordered_map
+-
+unordered_set
+-
+Course.h
+-
+
+../Parser/Parser.cpp
+Course.h
+-
+
+/Users/timur/CLionProjects/CoursesAnalyzer/main.cpp
+Parser.cpp
+-
+CourseAnalyzer.cpp
+-
+
